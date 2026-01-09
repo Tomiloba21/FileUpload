@@ -19,7 +19,7 @@ This service provides a simple yet robust file management system with the follow
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 src/main/java/com/fileupload/
 ├── FileUploadServiceApplication.java
 ├── config/
@@ -38,7 +38,7 @@ src/main/java/com/fileupload/
 │   └── FileMetadata.java
 └── service/
 └── FileStorageService.java
-\`\`\`
+```
 
 ## 🚀 How to Build and Run
 
@@ -47,9 +47,9 @@ src/main/java/com/fileupload/
 - Maven 3.6+
 
 ### Build the Application
-\`\`\`bash
+```bash
 mvn clean install
-\`\`\`
+````
 
 ### Run the Application
 ```bash
